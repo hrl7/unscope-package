@@ -1,0 +1,16 @@
+{
+  "name": "unscope-package",
+  "version": "0.0.1",
+  "bin": "index.js",
+  "description": "unscope your scoped package. create symbolic link @you/package-x to package-x. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --single-quote --trailing-comma es5 --write ./index.js"
+  },
+  "author": "Kentaro Teramoto <hrlclb@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.5.3"
+  }
+}
